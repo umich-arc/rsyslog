@@ -16,7 +16,8 @@ LABEL architecture="x86_64"               \
       vcs-type="git"                      \
       vcs-url="https://github.com/arc-ts/rsyslog"
 
-EXPOSE 514/tcp 514/udp
+EXPOSE 514/tcp 
+EXPOSE 514/udp
 
 RUN apk add --no-cache rsyslog
 
